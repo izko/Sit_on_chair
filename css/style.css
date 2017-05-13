@@ -56,7 +56,7 @@ header {
 }
 
 .container {
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   max-width: 1056px;
   margin: 0 auto;
   /*padding: 0 20px 0 20px;*/
@@ -490,7 +490,7 @@ h1.slider__h1 {
 }
 
 #form {
-  border: 1px solid purple;
+  /*border: 1px solid purple;*/
   height: 500px;
   background-color: white;
 }
@@ -598,10 +598,38 @@ textarea {
   margin: 10px 0 0 42px;
 }
 
-
-
-
 footer {
-  border: 1px solid red;
-  height: 120px;
+  /*border: 1px solid red;*/
+  height: 100px;
+}
+
+
+.footer__p {
+  float: left;
+  font-size: 16px;
+  /*border: 1px solid red;*/
+  width: 50%;
+  color: #A1A1A1;
+  margin: 10px 40px 0 0;
+}
+
+.footer__media {
+  float: left;
+  max-width: 380px;
+  /*border: 1px solid red;*/
+  padding: 0 40px 0 110px;
+}
+
+h1.footer__logo {
+  float: left;
+  font-size: 18px;
+  font-weight: 700;
+  color:#A1A1A1;
+  padding-top: 15px;
+  margin: 0 0 0 62px;
+}
+
+h1.footer__logo span {
+  color:rgba(80, 80, 80, 0.9);
+  font-weight: 700;
 }
