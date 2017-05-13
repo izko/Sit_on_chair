@@ -353,6 +353,12 @@ h1.slider__h1 {
   margin-top: 20px;
 }
 
+/*.second-box {
+  background-color: #00D1AD;
+  color: white;
+}*/
+/*all class selectors with .second-box are for second column (box2)*/
+
 .price__box1-circle {
   width: 56px;
   height: 56px;
@@ -363,8 +369,12 @@ h1.slider__h1 {
   left: 50%;
   margin-left: -28px;
   top: -38px;
-
 }
+
+/*.second-box {
+  border: 1px solid #00D1AD;
+  background-color: #00D1AD;
+}*/
 
 .price__box1-dot {
   width: 26px;
@@ -377,6 +387,11 @@ h1.slider__h1 {
   top: 50%;
   margin-top: -13px;
 }
+
+/*.dot-second-box {
+  border: 1px solid #00D1AD;
+  background-color: #ffffff;
+}*/
 
 .price__box1-click {
   position: absolute;
@@ -397,6 +412,13 @@ h1.slider__h1 {
   /*background-color: #00D1AD;*/
   box-shadow: 0 0 2px 1px #00B0AB;
 }
+
+/*button.click-second-box {
+  border: 1px solid red;
+  background-color: #ffffff;
+  color: red;
+}*/
+/*coś mi tu nie działa*/
 
 .price__box1-month {
   position: absolute;
@@ -470,7 +492,114 @@ h1.slider__h1 {
 #form {
   border: 1px solid purple;
   height: 500px;
+  background-color: white;
 }
+
+.form__header {
+  background-color: #FFFFFF;
+  color: #616161;
+  /*border: 1px solid red;*/
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  padding-top: 25px;
+}
+
+.form__line {
+  border: 4px solid #00D1AD;
+  width: 300px;
+  /*margin-bottom: 20px;*/
+}
+/*Czy lepiej robić tak, że w dwóch miejscach zamieszczam kod (kopiuję inny podobny elelment) czy np mieszać nazwy i selektory (np w tym miejscu zostawiłabym price__line)? Wtedy nie jest ona nazwana metodologią BEM.
+
+Czy może zamieścić wyżej w css nową klasę form__ line? tylko wtedy selektory nie będą po kolei w css.
+
+Co lepiej? Więcej kodu, czy zamieszanie w kodzie? */
+
+.form__text {
+  /*border: 1px solid red;*/
+  width: 640px;
+  float: left;
+}
+
+div.form__text input {
+  width: 620px;
+  line-height: 40px;
+  font-size: 20px;
+  padding-left: 5px;
+  border: 1px solid #00D1AD;
+}
+
+input#firstname {
+  margin: 40px 0 20px 0;
+}
+
+input#email {
+  margin: 0 0 20px 0;
+}
+
+textarea {
+  width: 620px;
+  height: 189px;
+  border: 1px solid #00D1AD;
+  resize: none;
+  padding-left: 5px;
+}
+/*Dlaczego na input nie działa selektor klasy???*/
+
+.form__agree {
+  float: left;
+  /*border: 1px solid red;*/
+}
+
+.form__agree img {
+  padding: 10px 0 0 60px;
+}
+
+.form__agree-button {
+  /*border: 1px solid red;*/
+  max-width: 300px;
+  color: #B8B8B8;
+  margin: 20px 0 0 40px;
+  font-size: 16px;
+}
+
+/*.form__checkbox {
+  background-color: red;
+}
+ nie umiem wystylować chceckboxa
+*/
+
+.form__button {
+  height: 50px;
+  width: 300px;
+  /*border: 1px solid red;*/
+  border-radius: 15px;
+  background-color: #00D1AD;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  padding: 10px 0 5px 0;
+  margin: 20px 0 0 42px;
+}
+
+.form__button:hover {
+  height: 50px;
+  width: 300px;
+  border-radius: 15px;
+  background-color: #00D1AD;
+  box-shadow: 0 0 2px 1px #00B0AB;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  padding: 10px 0 5px 0;
+  margin: 10px 0 0 42px;
+}
+
+
+
 
 footer {
   border: 1px solid red;

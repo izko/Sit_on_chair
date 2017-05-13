@@ -111,20 +111,20 @@
         </div>
 <!-- second column -->
         <div class="price__box1 second-box">
-          <h1 class="price__box1-h1">
+          <h1 class="price__box1-h1 second-box">
             STANDARD PLAN
           </h1>
-          <div class="price__box1-circle">
-            <div class="price__box1-dot">
+          <div class="price__box1-circle second-box">
+            <div class="price__box1-dot dot-second-box">
             </div>
             <div class="price__box1-click">
-              <button class="price__box1-button" value="info">
+              <button class="price__box1-button click-second-box" value="info">
                 DOŁĄCZ
               </button>
             </div>
           </div>
           <div class="price__box1-month">
-            <h1 class="price__month-h1">85</h1>
+            <h1 class="price__month-h1">95</h1>
             <h3 class="price__month-h3">99</h3>
             <h2 class="price__month-h2">PLN/MSC</h2>
           </div>
@@ -153,8 +153,8 @@
             </div>
           </div>
           <div class="price__box1-month">
-            <h1 class="price__month-h1">85</h1>
-            <h3 class="price__month-h3">99</h3>
+            <h1 class="price__month-h1">211</h1>
+            <h3 class="price__month-h3">00</h3>
             <h2 class="price__month-h2">PLN/MSC</h2>
           </div>
           <p class="price__box1-p1">
@@ -166,6 +166,11 @@
         </div>
 
         </div>
+
+        <!-- to stara koncepcja. Czy może lepej wrócić i zamiast modyfikować zmienić tylko nazwy box1 na box2/3 i nie męczyć się kaskadowością?
+
+      W css dodałam klasy .second-box, są one w komentarzach.
+      Co lepiej? -->
         <div class="price__box2">
 
         </div>
@@ -177,10 +182,32 @@
     </section>
 
     <section id="form">
-      <div class="container">
+      <div class="container clearfix">
+        <header class="form__header">
+          KONTAKT
+          <div class="form__line">
+          </div>
+        </header>
 
+        <div class="form__text">
+          <input id="firstname" name="firstname" placeholder="imię">
+          <input type="email" id="email" name="email" placeholder="email">
+          <div>
+            <textarea name="info" placeholder="wiadomość"></textarea>
+          </div>
+        </div>
+
+        <div class="form__agree">
+          <img src="images/red_chair.png" alt="">
+          <form class="form__agree-button">
+            <input class="form__checkbox" type="checkbox" value="agree">
+            Zgadzam się na przetwarzanie danych osobowych
+          </form>
+          <div class="form__button">
+              WYŚLIJ
+          </div>
+        </div>
       </div>
-
     </section>
 
     <footer>
