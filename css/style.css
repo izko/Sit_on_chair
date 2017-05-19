@@ -595,23 +595,24 @@ footer {
   /*border: 1px solid red;*/
   width: 50%;
   color: #A1A1A1;
-  margin: 10px 40px 0 0;
+  margin: 19px 35px 0 0;
 }
 
 .footer__media {
   float: left;
   max-width: 380px;
   /*border: 1px solid red;*/
-  padding: 0 40px 0 110px;
+  padding: 3px 20px 0 118px;
 }
 
 h1.footer__logo {
+  /*border: 1px solid red;*/
   float: left;
   font-size: 18px;
   font-weight: 700;
   color:#A1A1A1;
   padding-top: 15px;
-  margin: 0 0 0 62px;
+  margin: 4px 0 0 72px;
 }
 
 h1.footer__logo span {
