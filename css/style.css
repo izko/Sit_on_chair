@@ -47,6 +47,9 @@ body {
   font-family: "raleway", Helvetica, sans-serif;
 }
 
+
+
+/**********header**********/
 header {
   /*height: 40px; nie trzeba height, jeśli mamy line height*/
   /*border: 1px solid red;*/
@@ -60,7 +63,6 @@ header {
   max-width: 1056px;
   margin: 0 auto;
   /*padding: 0 20px 0 20px;*/
-  /*po co mieliśmy dodawać padding?*/
 }
 
 h1.header__logo {
@@ -71,7 +73,7 @@ h1.header__logo {
 }
 
 h1.header__logo span, h1.slider__h1 span {
-  color:#00D1AD;
+  color:#00C0AC;
   font-weight: 700;
 }
 
@@ -91,6 +93,7 @@ li.header__menu-list:last-of-type {
   padding-right: 0px;
 }
 
+/**********section#slider**********/
 section#slider {
   /*border: 1px solid red;*/
   height: 500px;
@@ -117,7 +120,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   padding-left: 0;
 
   font-size: 73px;
-  color:#2bb99e;
+  color:#00C0AC;
   font-weight: 300;
 }
 
@@ -126,7 +129,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   top: 210px;
   right: -2px;
   font-size: 73px;
-  color:#2bb99e;
+  color:#00C0AC;
   font-weight: 300;
 }
 
@@ -185,17 +188,11 @@ h1.slider__h1 {
 }
 
 .slider__button:hover {
-  height: 50px;
-  width: 230px;
-  border-radius: 15px;
-  background-color: #00C0AC;
-  box-shadow: 0 0 2px 1px #00B0AB;
-  color: white;
-  text-align: center;
-  font-weight: 700;
-  font-size: 18px;
+  background-color: #00B0AB;
+  box-shadow: 0 0 2px 1px #00C0AC;
 }
 
+/**********section#gallery**********/
 #gallery {
   /*border: 1px solid red;*/
   height: 350px;
@@ -233,7 +230,7 @@ h1.slider__h1 {
 }
 
 .gallery__line {
-  border: 4px solid #00D1AD;
+  border: 4px solid #00C0AC;
   width: 150px;
   margin-bottom: 20px;
 }
@@ -300,6 +297,7 @@ h1.slider__h1 {
   font-weight: 700;
 }
 
+/**********section#price**********/
 #price {
   /*border: 1px solid red;*/
   height: 725px;
@@ -318,7 +316,7 @@ h1.slider__h1 {
 }
 
 .price__line {
-  border: 4px solid #00D1AD;
+  border: 4px solid #00C0AC;
   width: 300px;
   /*margin-bottom: 20px;*/
 }
@@ -341,7 +339,7 @@ h1.slider__h1 {
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
-  color: #00D1AD;
+  color: #00C0AC;
   text-align: center;
   /*border: 1px solid red;*/
   margin-top: 20px;
@@ -394,17 +392,17 @@ h1.slider__h1 {
 }
 
 .price__box1-button {
-  background-color: #00D1AD;
+  background-color:#00C0AC;
   color: #ffffff;
   font-size: 18px;
   border-radius: 5px;
-  border: 1px solid #00D1AD;
+  border: 1px solid #00C0AC;
   padding: 7px 22px 7px 22px;
 }
 
 .price__box1-button:hover {
-  /*background-color: #00D1AD;*/
-  box-shadow: 0 0 2px 1px #00B0AB;
+  background-color: #00B0AB;
+  box-shadow: 0 0 2px 1px #00C0AC;
 }
 
 /*button.click-second-box {
@@ -483,6 +481,7 @@ h1.slider__h1 {
   /*background-color: #00D1AD;*/
 }
 
+/**********section#form**********/
 #form {
   /*border: 1px solid purple;*/
   height: 500px;
@@ -500,7 +499,7 @@ h1.slider__h1 {
 }
 
 .form__line {
-  border: 4px solid #00D1AD;
+  border: 4px solid #00C0AC;
   width: 300px;
   /*margin-bottom: 20px;*/
 }
@@ -521,7 +520,7 @@ div.form__text input {
   line-height: 40px;
   font-size: 20px;
   padding-left: 5px;
-  border: 1px solid #00D1AD;
+  border: 1px solid #00C0AC;
 }
 
 input#firstname {
@@ -535,7 +534,7 @@ input#email {
 textarea {
   width: 620px;
   height: 189px;
-  border: 1px solid #00D1AD;
+  border: 1px solid #00C0AC;
   resize: none;
   padding-left: 5px;
 }
@@ -569,7 +568,7 @@ textarea {
   width: 300px;
   /*border: 1px solid red;*/
   border-radius: 15px;
-  background-color: #00D1AD;
+  background-color: #00C0AC;
   color: white;
   text-align: center;
   font-weight: 700;
@@ -579,19 +578,11 @@ textarea {
 }
 
 .form__button:hover {
-  height: 50px;
-  width: 300px;
-  border-radius: 15px;
-  background-color: #00D1AD;
-  box-shadow: 0 0 2px 1px #00B0AB;
-  color: white;
-  text-align: center;
-  font-weight: 700;
-  font-size: 26px;
-  padding: 10px 0 5px 0;
-  margin: 10px 0 0 42px;
+  background-color: #00B0AB;
+  box-shadow: 0 0 2px 1px #00C0AC;
 }
 
+/**********footer**********/
 footer {
   /*border: 1px solid red;*/
   height: 100px;
