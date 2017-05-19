@@ -87,7 +87,7 @@ li.header__menu-list {
   display: inline-block;
   font-weight: 700;
   padding: 0 10px 0 10px;
-  position: relative; /*to zmieniam*/
+  position: relative;
 }
 
 li.header__menu-list:hover {
@@ -370,6 +370,12 @@ h1.slider__h1 {
   position: relative;
 }
 
+.price__box1:hover {
+  background-color: rgba(241, 241, 241, 0.8);
+  border: 1px solid #00C0AC;
+  z-index: 100;
+}
+
 .price__box1:last-of-type {
   margin: 90px 0 0 0;
 }
@@ -418,11 +424,6 @@ h1.slider__h1 {
   top: 50%;
   margin-top: -13px;
 }
-
-/*.dot-second-box {
-  border: 1px solid #00D1AD;
-  background-color: #ffffff;
-}*/
 
 .price__box1-click {
   position: absolute;
@@ -493,7 +494,7 @@ h1.slider__h1 {
   left: 15%;
 }
 
-.price__box1-p1, .price__box1-p2, .price__box1-p3 {
+.price__box1-p1, .price__box1-p2, .price__box1-p3, .price__box1-p4  {
   position: absolute;
   width: 328px;
   background-color: #E3E3E3;
@@ -511,13 +512,18 @@ h1.slider__h1 {
 }
 
 .price__box1-p3 {
-  background-color: #F9F9F9;
+  background-color: #E3E3E3;
   top: 63%;
-  border: 1px solid red;
 }
 
-.second-box {
-  /*background-color: #00D1AD;*/
+.price__box1-p4 {
+  background-color: #F1F1F1;
+  top: 71%;
+}
+
+/*//////////////////////////////////////*/
+.h1-left {
+  left: 36%;
 }
 
 /**********section#form**********/
