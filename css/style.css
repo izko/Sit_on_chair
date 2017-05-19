@@ -87,12 +87,51 @@ li.header__menu-list {
   display: inline-block;
   font-weight: 700;
   padding: 0 10px 0 10px;
+  position: relative; /*to zmieniam*/
+}
+
+li.header__menu-list:hover {
+background-color: #00B0AB;
 }
 
 li.header__menu-list:last-of-type {
-  padding-right: 0px;
+  /*padding-right: 0px;*/
 }
 
+.header__submenu {
+  position: absolute;
+  display: none;
+  max-width: 100px;
+  background-color: #000;
+  left: -6px;
+  top: 50px;
+  line-height: 26px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+
+.header__submenu > li {
+  padding: 0 10px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+li:hover > .header__submenu {
+  display: block;
+}
+
+.header__line {
+  position: absolute;
+  left: 5.5px;
+  top: 0;
+  border: 2px solid #00B0AB;
+  width: 89px;
+}
+
+.header__menu-list a {
+  color: #fff;
+  text-decoration: none;
+}
 /**********section#slider**********/
 section#slider {
   /*border: 1px solid red;*/
@@ -129,7 +168,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   top: 210px;
   right: -2px;
   font-size: 73px;
-  color:#00C0AC;
+  color: #00C0AC;
   font-weight: 300;
 }
 
