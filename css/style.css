@@ -51,25 +51,20 @@ body {
 
 /**********header**********/
 header {
-  /*height: 40px; nie trzeba height, jeśli mamy line height*/
-  /*border: 1px solid red;*/
   color: white;
   line-height: 40px;
   background-color: black;
 }
 
 .container {
-  /*border: 1px solid blue;*/
   max-width: 1056px;
   margin: 0 auto;
-  /*padding: 0 20px 0 20px;*/
 }
 
 h1.header__logo {
   float: left;
   font-size: 16px;
   font-weight: 700;
-  /*padding-left: 50px;*/
 }
 
 h1.header__logo span, h1.slider__h1 span {
@@ -80,7 +75,6 @@ h1.header__logo span, h1.slider__h1 span {
 nav.header__menu {
   float: right;
   font-size: 16px;
-  /*border: 1px solid red;*/
 }
 
 li.header__menu-list {
@@ -132,6 +126,8 @@ li:hover > .header__submenu {
   color: #fff;
   text-decoration: none;
 }
+
+
 /**********section#slider**********/
 section#slider {
   /*border: 1px solid red;*/
@@ -150,8 +146,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   position: relative;
 }
 
-/*strzałka*/
-
+/*******arrows*******/
 .slider__arrow-left {
   position: absolute;
   top: 210px;
@@ -179,13 +174,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   /*background-position: 50% 50%;*/
   height:350px;
   width:480px;
-  /*border: 1px solid red;*/
   padding: 150px 0 13px 5px;
   margin: 110px 10px 0 30px;
   position: relative;
 }
 
-/**********slider***********/
+/*******slider*******/
 .slider__left img {
   position: absolute;
   top:0;
@@ -193,27 +187,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   width: 480px;
 }
 
-/*.slider__left img:first-of-type {
-  height: auto;
-  width: 140% !important;
-}*/
-
 .slider__left ul{
-    list-style: none;
+  list-style: none;
 }
 
 .slider__left li{
-    display: none;
+  display: none;
 }
 
 .slider__left .visible{
   display: block;
 }
-/************************/
+
 
 .slider__right {
   float: left;
-  /*border: 1px solid red;*/
   max-width: 500px;
   max-height: 490px;
   padding: 120px 0 0 0;
@@ -221,7 +209,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 h1.slider__h1 {
-  /*border: 1px solid red;*/
   font-size: 38px;
   font-weight: 400;
   padding: 0 0 20px 20px;
@@ -229,7 +216,6 @@ h1.slider__h1 {
 }
 
 .slider__text {
-  /*border: 1px solid red;*/
   font-size: 14px;
   max-width: 382px;
   line-height: 20px;
@@ -258,16 +244,15 @@ h1.slider__h1 {
   box-shadow: 0 0 2px 1px #00C0AC;
 }
 
+
 /**********section#gallery**********/
 #gallery {
-  /*border: 1px solid red;*/
   height: 350px;
   background-color: white;
 }
 
 .gallery__left {
   position: relative;
-  /*border: 1px solid purple;*/
   width: 33.3333%;
   float: left;
   padding: 30px 0 90px 0;
@@ -303,7 +288,6 @@ h1.slider__h1 {
 }
 
 .gallery__middle {
-  /*border: 1px solid purple;*/
   position: relative;
   width: 33.3333%;
   float: left;
@@ -321,7 +305,6 @@ h1.slider__h1 {
 }
 
 .gallery__right {
-  /*border: 1px solid purple;*/
   width: 33.3333%;
   float: left;
   padding: 30px 0 50px 0;
@@ -333,7 +316,6 @@ h1.slider__h1 {
   text-align: justify;
   padding: 30px 30px 19px 20px;
   border: 1px solid #F1F1F1;
-  /*color: white;*/
 }
 
 .gallery__box:hover {
@@ -352,18 +334,16 @@ h1.slider__h1 {
   font-weight: 700;
 }
 
+
 /**********section#price**********/
 #price {
-  /*border: 1px solid red;*/
   height: 725px;
   background-color: #F1F1F1;
-  /*color: black;*/
 }
 
 .price__header {
   background-color: #F1F1F1;
   color: #616161;
-  /*border: 1px solid red;*/
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
@@ -373,7 +353,6 @@ h1.slider__h1 {
 .price__line {
   border: 4px solid #00C0AC;
   width: 300px;
-  /*margin-bottom: 20px;*/
 }
 
 .price__box1 {
@@ -402,7 +381,6 @@ h1.slider__h1 {
   line-height: 28px;
   color: #00C0AC;
   text-align: center;
-  /*border: 1px solid red;*/
   margin-top: 20px;
 }
 
@@ -544,7 +522,6 @@ h1.slider__h1 {
 
 /**********section#form**********/
 #form {
-  /*border: 1px solid purple;*/
   height: 500px;
   background-color: white;
 }
@@ -552,7 +529,6 @@ h1.slider__h1 {
 .form__header {
   background-color: #FFFFFF;
   color: #616161;
-  /*border: 1px solid red;*/
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
@@ -562,16 +538,9 @@ h1.slider__h1 {
 .form__line {
   border: 4px solid #00C0AC;
   width: 300px;
-  /*margin-bottom: 20px;*/
 }
-/*Czy lepiej robić tak, że w dwóch miejscach zamieszczam kod (kopiuję inny podobny elelment) czy np mieszać nazwy i selektory (np w tym miejscu zostawiłabym price__line)? Wtedy nie jest ona nazwana metodologią BEM.
-
-Czy może zamieścić wyżej w css nową klasę form__ line? tylko wtedy selektory nie będą po kolei w css.
-
-Co lepiej? Więcej kodu, czy zamieszanie w kodzie? */
 
 .form__text {
-  /*border: 1px solid red;*/
   width: 640px;
   float: left;
 }
@@ -599,11 +568,9 @@ textarea {
   resize: none;
   padding-left: 5px;
 }
-/*Dlaczego na input nie działa selektor klasy???*/
 
 .form__agree {
   float: left;
-  /*border: 1px solid red;*/
 }
 
 .form__agree img {
@@ -611,7 +578,6 @@ textarea {
 }
 
 .form__agree-button {
-  /*border: 1px solid red;*/
   max-width: 300px;
   color: #B8B8B8;
   margin: 20px 0 0 40px;
@@ -621,13 +587,12 @@ textarea {
 /*.form__checkbox {
   background-color: red;
 }
- nie umiem wystylować chceckboxa
+ stylowanie checkbox
 */
 
 .form__button {
   height: 50px;
   width: 300px;
-  /*border: 1px solid red;*/
   border-radius: 15px;
   background-color: #00C0AC;
   color: white;
@@ -645,7 +610,6 @@ textarea {
 
 /**********footer**********/
 footer {
-  /*border: 1px solid red;*/
   height: 100px;
 }
 
@@ -653,7 +617,6 @@ footer {
 .footer__p {
   float: left;
   font-size: 16px;
-  /*border: 1px solid red;*/
   width: 50%;
   color: #A1A1A1;
   margin: 19px 35px 0 0;
@@ -662,12 +625,10 @@ footer {
 .footer__media {
   float: left;
   max-width: 380px;
-  /*border: 1px solid red;*/
   padding: 3px 20px 0 118px;
 }
 
 h1.footer__logo {
-  /*border: 1px solid red;*/
   float: left;
   font-size: 18px;
   font-weight: 700;
