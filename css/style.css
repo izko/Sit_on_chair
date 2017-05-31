@@ -174,15 +174,42 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .slider__left {
   float: left;
-  background: url(../images/black_chair.png)40% 40%/127% no-repeat;
-  background-size: 130%;
-  background-position: 50% 50%;
+  /*background: url(../images/black_chair.png)40% 40%/127% no-repeat;*/
+  /*background-size: 130%;*/
+  /*background-position: 50% 50%;*/
   height:350px;
   width:480px;
   /*border: 1px solid red;*/
   padding: 150px 0 13px 5px;
   margin: 110px 10px 0 30px;
+  position: relative;
 }
+
+/**********slider***********/
+.slider__left img {
+  position: absolute;
+  top:0;
+  height: 350px;
+  width: 480px;
+}
+
+/*.slider__left img:first-of-type {
+  height: auto;
+  width: 140% !important;
+}*/
+
+.slider__left ul{
+    list-style: none;
+}
+
+.slider__left li{
+    display: none;
+}
+
+.slider__left .visible{
+  display: block;
+}
+/************************/
 
 .slider__right {
   float: left;
