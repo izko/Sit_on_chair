@@ -128,6 +128,11 @@ li:hover > .header__submenu {
 }
 
 
+.header__logo,
+.header__menu-list
+body{
+  -webkit-animation-duration: 1.5s;
+}
 /**********section#slider**********/
 section#slider {
   /*border: 1px solid red;*/
