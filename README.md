@@ -1,6 +1,7 @@
 # Sit on chair
 
-## My first project based on .jpg layout.
+My first project based on .jpg layout. Made after first week of coding bootcamp at CodersLab.
+
 ### Technologies & features:
 * HTML5
 * CSS3
